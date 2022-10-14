@@ -1,0 +1,10 @@
+.right a{
+    margin: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+}
+
+

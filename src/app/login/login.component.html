@@ -1,0 +1,37 @@
+<h4 class="text-center py-5">GO to your Account</h4>
+<p class="text-center" >Lorem ipsum dolor sit amet consectetur <br>
+   adipisicing elit. Iusto recusandae voluptatibus <br>
+     ab nihil autem, tempore natus totam architecto <br>
+
+<section class="p-5 m-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 form-control w-30">
+               
+                    <form class="m-4 p-4"  [formGroup] ="form" (ngSubmit)="clicksub()" >
+                        <h3 class="text-center text-primary" >Login Now</h3>
+                    
+                        <div>
+                            <label class="p-3">Enter Your Email :</label>
+                            <input formControlName="email" type="text" placeholder="Email" class="form-control">
+                            <small *ngIf="email.invalid && email.touched" class="text-danger">Email is Required</small>
+                        </div>
+
+                    
+                        <div>
+                            <label class="p-3">Enter Your Password :</label>
+                            <input formControlName="password" type="password" placeholder="password" class="form-control">
+                            <small *ngIf="password.invalid && password.touched" class="text-danger">Password is Required</small>
+                        </div>
+
+                    <button [disabled]="form.invalid" class="btn btn-dark m-3">Submit</button>
+
+                    <p class="text-center mt-4 mb-0"> Don't have an account ? <a routerLink="/signup" class="btn btn-primary">SignUp</a></p>
+                    </form>
+
+              
+            </div>
+        </div>
+    </div>
+</section>
+  

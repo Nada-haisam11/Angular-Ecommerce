@@ -1,0 +1,43 @@
+
+footer {
+    color: white;
+    padding: 10px 150px;
+}
+ h3 {
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+ul a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+
+/* .footer-item {
+    margin: 40px;
+} */
+/* .footer-item h3 {
+    text-transform: capitalize;
+    margin-left: 30px;
+   font-size: 20px;
+}
+.footer-item ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.footer-item ul a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    position: relative;
+}
+.footer-item ul a:hover{
+    color: beige;
+} */
+
